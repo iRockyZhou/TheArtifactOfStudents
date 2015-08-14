@@ -37,8 +37,4 @@ ___
 ###代码说明
  详细开发文档见代码内注释
   
-###应用截图   
 
-![应用截图1](http://c.picphotos.baidu.com/album/s%3D680%3Bq%3D90/sign=ee1c9b4e1b950a7b71354dcc3aea13e4/bd315c6034a85edf2fa53e5b4f540923dd547599.jpg)
-![应用截图2](http://e.picphotos.baidu.com/album/s%3D680%3Bq%3D90/sign=bceea475209759ee4e5063c382c0322b/18d8bc3eb13533fa369f5356aed3fd1f41345b99.jpg)
-![应用截图3](http://d.picphotos.baidu.com/album/s%3D680%3Bq%3D90/sign=c04d766ec9fc1e17f9bf8f397aab873e/8c1001e93901213f3bea8fa452e736d12e2e95e9.jpg)
