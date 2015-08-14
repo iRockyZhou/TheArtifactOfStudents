@@ -7,13 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2746B4D51B788577009F9E08 /* UIColor+Nero.m in Sources */ = {isa = PBXBuildFile; fileRef = 2746B4D41B788577009F9E08 /* UIColor+Nero.m */; };
+		277BBC951B78C205001F053F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 277BBC941B78C205001F053F /* icon.png */; };
 		27C1B49A1B77411300BEE323 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1B4991B77411300BEE323 /* main.m */; };
 		27C1B49D1B77411300BEE323 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1B49C1B77411300BEE323 /* AppDelegate.m */; };
-		27C1B4A01B77411300BEE323 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1B49F1B77411300BEE323 /* ViewController.m */; };
 		27C1B4A31B77411300BEE323 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C1B4A11B77411300BEE323 /* Main.storyboard */; };
 		27C1B4A51B77411400BEE323 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C1B4A41B77411400BEE323 /* Images.xcassets */; };
 		27C1B4A81B77411400BEE323 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27C1B4A61B77411400BEE323 /* LaunchScreen.xib */; };
 		27C1B4B41B77411400BEE323 /* TheArtifactOfStudentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1B4B31B77411400BEE323 /* TheArtifactOfStudentsTests.m */; };
+		27C1B4C61B77443300BEE323 /* bg1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27C1B4BE1B77443300BEE323 /* bg1@2x.png */; };
+		27C1B4C71B77443300BEE323 /* bg2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27C1B4BF1B77443300BEE323 /* bg2@2x.png */; };
+		27C1B4C81B77443300BEE323 /* bg3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27C1B4C01B77443300BEE323 /* bg3@2x.png */; };
+		27C1B4C91B77443300BEE323 /* bg4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27C1B4C11B77443300BEE323 /* bg4@2x.png */; };
+		27C1B4CA1B77443300BEE323 /* title1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27C1B4C21B77443300BEE323 /* title1@2x.png */; };
+		27C1B4CB1B77443300BEE323 /* title2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27C1B4C31B77443300BEE323 /* title2@2x.png */; };
+		27C1B4CC1B77443300BEE323 /* title3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27C1B4C41B77443300BEE323 /* title3@2x.png */; };
+		27C1B4CD1B77443300BEE323 /* title4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27C1B4C51B77443300BEE323 /* title4@2x.png */; };
+		27C1B4F11B7763C700BEE323 /* NeroAllListsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1B4F01B7763C700BEE323 /* NeroAllListsVC.m */; };
+		27C1B4F41B776B7100BEE323 /* NeroIntroPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1B4F31B776B7100BEE323 /* NeroIntroPageVC.m */; };
+		27C1B4F71B77704E00BEE323 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1B4F61B77704E00BEE323 /* ViewController.m */; };
+		27C1B4FA1B7789B800BEE323 /* NeroItemDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1B4F91B7789B800BEE323 /* NeroItemDetailVC.m */; };
+		27C1B4FD1B7794ED00BEE323 /* NeroListDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1B4FC1B7794ED00BEE323 /* NeroListDetailVC.m */; };
+		27C1B5031B77971A00BEE323 /* NeroCellBGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1B5021B77971A00BEE323 /* NeroCellBGView.m */; };
+		27C1B5061B77978400BEE323 /* NeroArtifactItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1B5051B77978400BEE323 /* NeroArtifactItem.m */; };
+		27C1B5091B77981F00BEE323 /* NeroArtifactList.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1B5081B77981F00BEE323 /* NeroArtifactList.m */; };
+		27C1B50C1B7798DD00BEE323 /* NeroDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1B50B1B7798DD00BEE323 /* NeroDataModel.m */; };
+		924AC27AB391D09AE1A4F12F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B84889B47775A8340C01947 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +46,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2746B4D31B788577009F9E08 /* UIColor+Nero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Nero.h"; sourceTree = "<group>"; };
+		2746B4D41B788577009F9E08 /* UIColor+Nero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Nero.m"; sourceTree = "<group>"; };
+		277BBC941B78C205001F053F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		27C1B4941B77411300BEE323 /* TheArtifactOfStudents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheArtifactOfStudents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27C1B4981B77411300BEE323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27C1B4991B77411300BEE323 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		27C1B49B1B77411300BEE323 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		27C1B49C1B77411300BEE323 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		27C1B49E1B77411300BEE323 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		27C1B49F1B77411300BEE323 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		27C1B4A21B77411300BEE323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27C1B4A41B77411400BEE323 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		27C1B4A71B77411400BEE323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		27C1B4AD1B77411400BEE323 /* TheArtifactOfStudentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheArtifactOfStudentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27C1B4B21B77411400BEE323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27C1B4B31B77411400BEE323 /* TheArtifactOfStudentsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheArtifactOfStudentsTests.m; sourceTree = "<group>"; };
+		27C1B4BE1B77443300BEE323 /* bg1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg1@2x.png"; sourceTree = "<group>"; };
+		27C1B4BF1B77443300BEE323 /* bg2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg2@2x.png"; sourceTree = "<group>"; };
+		27C1B4C01B77443300BEE323 /* bg3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg3@2x.png"; sourceTree = "<group>"; };
+		27C1B4C11B77443300BEE323 /* bg4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg4@2x.png"; sourceTree = "<group>"; };
+		27C1B4C21B77443300BEE323 /* title1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "title1@2x.png"; sourceTree = "<group>"; };
+		27C1B4C31B77443300BEE323 /* title2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "title2@2x.png"; sourceTree = "<group>"; };
+		27C1B4C41B77443300BEE323 /* title3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "title3@2x.png"; sourceTree = "<group>"; };
+		27C1B4C51B77443300BEE323 /* title4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "title4@2x.png"; sourceTree = "<group>"; };
+		27C1B4EF1B7763C700BEE323 /* NeroAllListsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeroAllListsVC.h; sourceTree = "<group>"; };
+		27C1B4F01B7763C700BEE323 /* NeroAllListsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeroAllListsVC.m; sourceTree = "<group>"; };
+		27C1B4F21B776B7100BEE323 /* NeroIntroPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeroIntroPageVC.h; sourceTree = "<group>"; };
+		27C1B4F31B776B7100BEE323 /* NeroIntroPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeroIntroPageVC.m; sourceTree = "<group>"; };
+		27C1B4F51B77704E00BEE323 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		27C1B4F61B77704E00BEE323 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		27C1B4F81B7789B800BEE323 /* NeroItemDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeroItemDetailVC.h; sourceTree = "<group>"; };
+		27C1B4F91B7789B800BEE323 /* NeroItemDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeroItemDetailVC.m; sourceTree = "<group>"; };
+		27C1B4FB1B7794ED00BEE323 /* NeroListDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeroListDetailVC.h; sourceTree = "<group>"; };
+		27C1B4FC1B7794ED00BEE323 /* NeroListDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeroListDetailVC.m; sourceTree = "<group>"; };
+		27C1B5011B77971A00BEE323 /* NeroCellBGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeroCellBGView.h; sourceTree = "<group>"; };
+		27C1B5021B77971A00BEE323 /* NeroCellBGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeroCellBGView.m; sourceTree = "<group>"; };
+		27C1B5041B77978400BEE323 /* NeroArtifactItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeroArtifactItem.h; sourceTree = "<group>"; };
+		27C1B5051B77978400BEE323 /* NeroArtifactItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeroArtifactItem.m; sourceTree = "<group>"; };
+		27C1B5071B77981F00BEE323 /* NeroArtifactList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeroArtifactList.h; sourceTree = "<group>"; };
+		27C1B5081B77981F00BEE323 /* NeroArtifactList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeroArtifactList.m; sourceTree = "<group>"; };
+		27C1B50A1B7798DD00BEE323 /* NeroDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeroDataModel.h; sourceTree = "<group>"; };
+		27C1B50B1B7798DD00BEE323 /* NeroDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeroDataModel.m; sourceTree = "<group>"; };
+		4B84889B47775A8340C01947 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7E0D45F0DFD1CC8D240EDE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F7E378554FD2D8BDCFF6BB5B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				924AC27AB391D09AE1A4F12F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +110,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2746B4D21B788577009F9E08 /* UIColor+Nero */ = {
+			isa = PBXGroup;
+			children = (
+				2746B4D31B788577009F9E08 /* UIColor+Nero.h */,
+				2746B4D41B788577009F9E08 /* UIColor+Nero.m */,
+			);
+			path = "UIColor+Nero";
+			sourceTree = "<group>";
+		};
 		27C1B48B1B77411300BEE323 = {
 			isa = PBXGroup;
 			children = (
 				27C1B4961B77411300BEE323 /* TheArtifactOfStudents */,
 				27C1B4B01B77411400BEE323 /* TheArtifactOfStudentsTests */,
 				27C1B4951B77411300BEE323 /* Products */,
+				3C5172874F64C011647A3B29 /* Pods */,
+				752FC78CA8D3D78C413D3FAE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,10 +142,12 @@
 		27C1B4961B77411300BEE323 /* TheArtifactOfStudents */ = {
 			isa = PBXGroup;
 			children = (
+				2746B4D21B788577009F9E08 /* UIColor+Nero */,
+				27C1B4D31B77462900BEE323 /* Model */,
+				27C1B4D21B77462300BEE323 /* View */,
+				27C1B4CE1B77449900BEE323 /* Controller */,
 				27C1B49B1B77411300BEE323 /* AppDelegate.h */,
 				27C1B49C1B77411300BEE323 /* AppDelegate.m */,
-				27C1B49E1B77411300BEE323 /* ViewController.h */,
-				27C1B49F1B77411300BEE323 /* ViewController.m */,
 				27C1B4A11B77411300BEE323 /* Main.storyboard */,
 				27C1B4A41B77411400BEE323 /* Images.xcassets */,
 				27C1B4A61B77411400BEE323 /* LaunchScreen.xib */,
@@ -96,6 +159,7 @@
 		27C1B4971B77411300BEE323 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				27C1B4BD1B77443300BEE323 /* Intro */,
 				27C1B4981B77411300BEE323 /* Info.plist */,
 				27C1B4991B77411300BEE323 /* main.m */,
 			);
@@ -119,6 +183,78 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		27C1B4BD1B77443300BEE323 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				277BBC941B78C205001F053F /* icon.png */,
+				27C1B4BE1B77443300BEE323 /* bg1@2x.png */,
+				27C1B4BF1B77443300BEE323 /* bg2@2x.png */,
+				27C1B4C01B77443300BEE323 /* bg3@2x.png */,
+				27C1B4C11B77443300BEE323 /* bg4@2x.png */,
+				27C1B4C21B77443300BEE323 /* title1@2x.png */,
+				27C1B4C31B77443300BEE323 /* title2@2x.png */,
+				27C1B4C41B77443300BEE323 /* title3@2x.png */,
+				27C1B4C51B77443300BEE323 /* title4@2x.png */,
+			);
+			path = Intro;
+			sourceTree = "<group>";
+		};
+		27C1B4CE1B77449900BEE323 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				27C1B4EF1B7763C700BEE323 /* NeroAllListsVC.h */,
+				27C1B4F01B7763C700BEE323 /* NeroAllListsVC.m */,
+				27C1B4F21B776B7100BEE323 /* NeroIntroPageVC.h */,
+				27C1B4F31B776B7100BEE323 /* NeroIntroPageVC.m */,
+				27C1B4F51B77704E00BEE323 /* ViewController.h */,
+				27C1B4F61B77704E00BEE323 /* ViewController.m */,
+				27C1B4F81B7789B800BEE323 /* NeroItemDetailVC.h */,
+				27C1B4F91B7789B800BEE323 /* NeroItemDetailVC.m */,
+				27C1B4FB1B7794ED00BEE323 /* NeroListDetailVC.h */,
+				27C1B4FC1B7794ED00BEE323 /* NeroListDetailVC.m */,
+				27C1B5011B77971A00BEE323 /* NeroCellBGView.h */,
+				27C1B5021B77971A00BEE323 /* NeroCellBGView.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		27C1B4D21B77462300BEE323 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		27C1B4D31B77462900BEE323 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				27C1B5041B77978400BEE323 /* NeroArtifactItem.h */,
+				27C1B5051B77978400BEE323 /* NeroArtifactItem.m */,
+				27C1B5071B77981F00BEE323 /* NeroArtifactList.h */,
+				27C1B5081B77981F00BEE323 /* NeroArtifactList.m */,
+				27C1B50A1B7798DD00BEE323 /* NeroDataModel.h */,
+				27C1B50B1B7798DD00BEE323 /* NeroDataModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3C5172874F64C011647A3B29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7E378554FD2D8BDCFF6BB5B /* Pods.debug.xcconfig */,
+				AF7E0D45F0DFD1CC8D240EDE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		752FC78CA8D3D78C413D3FAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B84889B47775A8340C01947 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +262,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27C1B4B71B77411400BEE323 /* Build configuration list for PBXNativeTarget "TheArtifactOfStudents" */;
 			buildPhases = (
+				0F76EB0D5FE5467165D1C387 /* Check Pods Manifest.lock */,
 				27C1B4901B77411300BEE323 /* Sources */,
 				27C1B4911B77411300BEE323 /* Frameworks */,
 				27C1B4921B77411300BEE323 /* Resources */,
+				0172CC3A65C04E5CBF6CB87D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,11 +301,13 @@
 		27C1B48C1B77411300BEE323 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = Nero;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = TanJunqiang;
 				TargetAttributes = {
 					27C1B4931B77411300BEE323 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 77T9PEZRU7;
 					};
 					27C1B4AC1B77411400BEE323 = {
 						CreatedOnToolsVersion = 6.4;
@@ -200,8 +340,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				27C1B4A31B77411300BEE323 /* Main.storyboard in Resources */,
+				27C1B4C91B77443300BEE323 /* bg4@2x.png in Resources */,
+				27C1B4C81B77443300BEE323 /* bg3@2x.png in Resources */,
+				27C1B4CD1B77443300BEE323 /* title4@2x.png in Resources */,
+				27C1B4C61B77443300BEE323 /* bg1@2x.png in Resources */,
+				277BBC951B78C205001F053F /* icon.png in Resources */,
 				27C1B4A81B77411400BEE323 /* LaunchScreen.xib in Resources */,
+				27C1B4CA1B77443300BEE323 /* title1@2x.png in Resources */,
 				27C1B4A51B77411400BEE323 /* Images.xcassets in Resources */,
+				27C1B4CB1B77443300BEE323 /* title2@2x.png in Resources */,
+				27C1B4C71B77443300BEE323 /* bg2@2x.png in Resources */,
+				27C1B4CC1B77443300BEE323 /* title3@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +363,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0172CC3A65C04E5CBF6CB87D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0F76EB0D5FE5467165D1C387 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		27C1B4901B77411300BEE323 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27C1B4A01B77411300BEE323 /* ViewController.m in Sources */,
+				27C1B5061B77978400BEE323 /* NeroArtifactItem.m in Sources */,
+				27C1B4FA1B7789B800BEE323 /* NeroItemDetailVC.m in Sources */,
 				27C1B49D1B77411300BEE323 /* AppDelegate.m in Sources */,
 				27C1B49A1B77411300BEE323 /* main.m in Sources */,
+				27C1B50C1B7798DD00BEE323 /* NeroDataModel.m in Sources */,
+				27C1B5031B77971A00BEE323 /* NeroCellBGView.m in Sources */,
+				27C1B5091B77981F00BEE323 /* NeroArtifactList.m in Sources */,
+				27C1B4FD1B7794ED00BEE323 /* NeroListDetailVC.m in Sources */,
+				27C1B4F41B776B7100BEE323 /* NeroIntroPageVC.m in Sources */,
+				2746B4D51B788577009F9E08 /* UIColor+Nero.m in Sources */,
+				27C1B4F11B7763C700BEE323 /* NeroAllListsVC.m in Sources */,
+				27C1B4F71B77704E00BEE323 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +494,8 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
@@ -339,15 +532,21 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};
 		27C1B4B81B77411400BEE323 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7E378554FD2D8BDCFF6BB5B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TheArtifactOfStudents/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -355,9 +554,13 @@
 		};
 		27C1B4B91B77411400BEE323 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF7E0D45F0DFD1CC8D240EDE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = TheArtifactOfStudents/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +619,7 @@
 				27C1B4B91B77411400BEE323 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27C1B4BA1B77411400BEE323 /* Build configuration list for PBXNativeTarget "TheArtifactOfStudentsTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +628,7 @@
 				27C1B4BC1B77411400BEE323 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

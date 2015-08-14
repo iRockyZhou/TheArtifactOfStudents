@@ -1,0 +1,6 @@
+pod 'EARestrictedScrollView'
+pod 'BmobSDK'
+pod 'ChameleonFramework'
+pod 'MCSwipeTableViewCell'
+pod 'BFPaperCheckbox'
+pod 'EAIntroView'

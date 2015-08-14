@@ -1,0 +1,6 @@
+module BFPaperCheckbox {
+  umbrella header "BFPaperCheckbox-umbrella.h"
+
+  export *
+  module * { export * }
+}

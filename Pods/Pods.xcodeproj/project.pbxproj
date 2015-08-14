@@ -1,0 +1,1257 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0170D89691AF19B5FA7313C46A5BD6CD /* UIColor+BFPaperColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B18484B347E09763BC1F4D8800A2A158 /* UIColor+BFPaperColors-dummy.m */; };
+		033C3C4CA94192D846AFB14EF007D4A8 /* EARestrictedScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 19857137563310E6EC6BC88A0F0DDEA6 /* EARestrictedScrollView.h */; };
+		0841B0ABCACDBE4694EE34251D14B845 /* MCSwipeTableViewCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56C56FEE9B7D6FFA8FE6B84F11025D26 /* MCSwipeTableViewCell-umbrella.h */; };
+		0B4E593F2EACF9C61F50C26CC105B98B /* Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = D5B0AAAB13F598A06A7E0A8671FA864C /* Chameleon.h */; };
+		0B607165C685D63FEC0611D111432D6C /* EARestrictedScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F67C8D1AB03753EE331539CAB1D4850E /* EARestrictedScrollView-dummy.m */; };
+		0E1038F00268CA16608C75BB6B1E3F97 /* EAIntroView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 255FD14691D4CCBA9B7A3A7C5497007C /* EAIntroView-umbrella.h */; };
+		13EC195C0069E6A1A0BF758075373B42 /* MCSwipeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 748310F2599518DD673965045388CC68 /* MCSwipeTableViewCell.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		17E11285DCA73977C984D7599208C05E /* UIColor+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = DA1DA3EF5ECACBE9F8EA0FADA65D8585 /* UIColor+Chameleon.h */; };
+		1B50B3A8F5CA15811E2B6105457209C8 /* BFPaperCheckbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 489C304FAF3F0581E99B376D10EFB4C6 /* BFPaperCheckbox-umbrella.h */; };
+		1F4D0092106B04DAC181A806B7A7ACA3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71208A406739B7ECC2A52C19F0C71404 /* CoreGraphics.framework */; };
+		2093340D4BBFEFD828932BC22920235C /* EARestrictedScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 478AB6B6C18AE4ADDA1787ECA60CC939 /* EARestrictedScrollView-umbrella.h */; };
+		326CE32065030B88ECCE30939F41A6D4 /* NSArray+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 179DBCFC34A7CB7B7D47B97840066CF1 /* NSArray+Chameleon.h */; };
+		335B75A3401B63E1921DB7E7E5EA0737 /* MCSwipeTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 721BBFCE2B902CF002ABAB70CE057D4E /* MCSwipeTableViewCell.h */; };
+		33E335220F5E927569535CFBD889A18E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA920D18D1902C4B14145E803CBAFCE /* Foundation.framework */; };
+		4C3A9D334B95107101A1256458358428 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA920D18D1902C4B14145E803CBAFCE /* Foundation.framework */; };
+		50433E7546F079635D9B7CEB48D718CA /* UIViewController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FBF3753702CC83BC4B996A6C51E414 /* UIViewController+Chameleon.m */; };
+		51C8F7D212BB2505AD7E311726512C6B /* EAIntroView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C360E03DD93EFEB074E535D346CBC4 /* EAIntroView-dummy.m */; };
+		5206ABE852712A9B32D29FF50C7D89C5 /* UIViewController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 175AFDC029CB100859C112E132E4462D /* UIViewController+Chameleon.h */; };
+		534D3FE8A4F1239F7272B60AB9608091 /* UIColor+CIELAB.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E692C40245FF5D9BF57EF0AF0449AB /* UIColor+CIELAB.h */; };
+		594FFAFE050D3348F4185FECFA61572E /* ChameleonStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E971E3EB0CB9C29F866E838ABBB06356 /* ChameleonStatusBar.m */; };
+		5BE1DDA02CA5275162FBAE07597C2AEE /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C58560C1D2D199AF8F5A367F48894A78 /* Pods-dummy.m */; };
+		60CB3B2F26E7C96399C4E0296021C08F /* ChameleonStatusBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 263D2D74EA66FF4D9401B233A0C8EF3E /* ChameleonStatusBar.h */; };
+		6B64B4F1EEC8FA163E59CB200B70F195 /* ChameleonMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D645EBF0DE477646EA758D34A4B38D /* ChameleonMacros.h */; };
+		6C59B631C3CF456E1C02C9CE4754FCFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA920D18D1902C4B14145E803CBAFCE /* Foundation.framework */; };
+		82FFF72094C9FA9A0A41048325C33C5F /* UIColor+BFPaperColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C179EFEC523A653EC33CE8147410AF /* UIColor+BFPaperColors.m */; };
+		8EDB618BB8ED7828D015DAF65B231006 /* UIColor+CIELAB.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6F5B57F8F9A81DEC982EA3D6E1797D /* UIColor+CIELAB.m */; };
+		9260C7D3F91493D43C854B0C6A39AC77 /* ChameleonFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49CFB4D67137DA215AAD60FA58AB1705 /* ChameleonFramework-umbrella.h */; };
+		94FE5E3836E2532C94D3C5497177143D /* EAIntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7485F3ED54512C4779655AF33ED5B9 /* EAIntroView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9FA55DAB814D8756392A897CE7B1E253 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA920D18D1902C4B14145E803CBAFCE /* Foundation.framework */; };
+		A3E3A44211D3E142CA1B1ED0969F96BF /* UIColor+BFPaperColors.h in Headers */ = {isa = PBXBuildFile; fileRef = FCC1D4F8C7061948FD4B4FD62943D55D /* UIColor+BFPaperColors.h */; };
+		A73B5AD14B6E57DFF7D40F97B74A495A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7460371A12D6F6BBE29C03704A2E71EC /* UIKit.framework */; };
+		A78FAAF0A9D79D0952DCD4D313B87DF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA920D18D1902C4B14145E803CBAFCE /* Foundation.framework */; };
+		AEA233E0F828594AFA6C89D8D3ECF5A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA920D18D1902C4B14145E803CBAFCE /* Foundation.framework */; };
+		B27758ECF96BA1A6CDCE6143B78D0EA7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8117B6160A644B30AFD280CD28D7F8DB /* QuartzCore.framework */; };
+		B80276296E95D42E4B41ED785E0D3DA6 /* MCSwipeTableViewCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC741FBF81D0B7FD9BB3A0B3D54A54A /* MCSwipeTableViewCell-dummy.m */; };
+		BB0ECE454666B44C14D6AB0134E4802A /* BFPaperCheckbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 640BA20EE311BF3CA0B63A75F0DEF560 /* BFPaperCheckbox-dummy.m */; };
+		C6D3633FD72AFEEF6ACF4F8D910ECCDE /* UIColor+BFPaperColors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83F6FADB8F383E59B3A8AC9FE5708E3C /* UIColor+BFPaperColors-umbrella.h */; };
+		D1E0E36327A8853563A74DE85ED51AAB /* BFPaperCheckbox.m in Sources */ = {isa = PBXBuildFile; fileRef = FD329956B1745E8E074C7AE2EF0FB856 /* BFPaperCheckbox.m */; };
+		D90ABE0B406AEDA610FD19AA9358180F /* EAIntroView.h in Headers */ = {isa = PBXBuildFile; fileRef = CB2037C1D799A7DC939F986BEA54B36E /* EAIntroView.h */; };
+		DA34A8AB4A569AACC8CCA8CCFE53D851 /* NSArray+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0773F30888C280F1891EB3DE5FE9DAA0 /* NSArray+Chameleon.m */; };
+		DF6775491BC7DAE308555E531F8FB262 /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1377D20B9E9F0C907C7A963D4D929E /* UIColor+Chameleon.m */; };
+		E1278C9B5E2B5247327BCBD102B2C8EF /* ChameleonFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC265E092AFF03D2249BA5471774243 /* ChameleonFramework-dummy.m */; };
+		EE255833383925BA121BE7B3279DC1F3 /* EARestrictedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D434379A870D7ED4839FAD7DCAA3DAB /* EARestrictedScrollView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F44D368FC7C908F61B329B963413807F /* EAIntroPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4AF15CD4ECC48C5C907A1F84F4FF2A /* EAIntroPage.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F52D91835A9EF1CE10FF3F2B7DE41232 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA920D18D1902C4B14145E803CBAFCE /* Foundation.framework */; };
+		F6604096925A857EA71F3E0BD0B85BE6 /* EAIntroPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 45117CA3495E20D8B199C7ECE072807F /* EAIntroPage.h */; };
+		FEAD7D0BE100F84E390DED74CA9FE4BF /* BFPaperCheckbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 6117557E32111B02367BDED704EF2658 /* BFPaperCheckbox.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06C80394F6B60313224A6CB398ED32FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D410E1485915809C5ACADDE14DDD98B8;
+			remoteInfo = "UIColor+BFPaperColors";
+		};
+		34076BF6583E426E051F6F4D6FC731DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA8B28166D77FFED1E3BAD8D75E7F2BE;
+			remoteInfo = BFPaperCheckbox;
+		};
+		8BB5EA039C6FF11C6ADEA1428E532B3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92D0F5E93F5146AC0DDD8E9B4A1CF7AB;
+			remoteInfo = ChameleonFramework;
+		};
+		977A4D618733EE4A19BA7E6E667258CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3D59AEEA54ECAE4BCC3D05904F91FC2;
+			remoteInfo = EARestrictedScrollView;
+		};
+		9C5DAD66C71CB6AF3C38E45F887F3E84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3D59AEEA54ECAE4BCC3D05904F91FC2;
+			remoteInfo = EARestrictedScrollView;
+		};
+		CBC7BDC5D962C622FB0F5B47EEFD3457 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D410E1485915809C5ACADDE14DDD98B8;
+			remoteInfo = "UIColor+BFPaperColors";
+		};
+		E529FACE60FB2FB7E1DB028C967EA272 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3686655EF666456A4008F71954C428CC;
+			remoteInfo = EAIntroView;
+		};
+		F923BF59A0F564C148119DB75F3DE0D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE02FA362D12922793FFD492282D5A7A;
+			remoteInfo = MCSwipeTableViewCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01A99881CB8B41ED7ABF63884E59C0AE /* libEARestrictedScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEARestrictedScrollView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		02E13CA457525E1B0D38465CC29932C2 /* UIColor+BFPaperColors.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "UIColor+BFPaperColors.modulemap"; sourceTree = "<group>"; };
+		0773F30888C280F1891EB3DE5FE9DAA0 /* NSArray+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Chameleon.m"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.m"; sourceTree = "<group>"; };
+		175AFDC029CB100859C112E132E4462D /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Chameleon.h"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.h"; sourceTree = "<group>"; };
+		179DBCFC34A7CB7B7D47B97840066CF1 /* NSArray+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Chameleon.h"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.h"; sourceTree = "<group>"; };
+		19857137563310E6EC6BC88A0F0DDEA6 /* EARestrictedScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EARestrictedScrollView.h; path = EARestrictedScrollView/EARestrictedScrollView.h; sourceTree = "<group>"; };
+		19F830CABFD7C5AB3A939E4B18915F47 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1C43F392624FF80FA6F31107105381CB /* MCSwipeTableViewCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MCSwipeTableViewCell-prefix.pch"; sourceTree = "<group>"; };
+		24D0E268CCE675AD8630D948A23A61CB /* UIColor+BFPaperColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+BFPaperColors-prefix.pch"; sourceTree = "<group>"; };
+		255FD14691D4CCBA9B7A3A7C5497007C /* EAIntroView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EAIntroView-umbrella.h"; sourceTree = "<group>"; };
+		263D2D74EA66FF4D9401B233A0C8EF3E /* ChameleonStatusBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonStatusBar.h; path = "Pod/Classes/Objective-C/ChameleonStatusBar.h"; sourceTree = "<group>"; };
+		2B7DEBA1F1A53215439AE9FBB3298F53 /* UIColor+BFPaperColors-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIColor+BFPaperColors-Private.xcconfig"; sourceTree = "<group>"; };
+		2EC265E092AFF03D2249BA5471774243 /* ChameleonFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChameleonFramework-dummy.m"; sourceTree = "<group>"; };
+		3D6F5B57F8F9A81DEC982EA3D6E1797D /* UIColor+CIELAB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+CIELAB.m"; path = "Pod/Classes/Objective-C/UIColor+CIELAB.m"; sourceTree = "<group>"; };
+		45117CA3495E20D8B199C7ECE072807F /* EAIntroPage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EAIntroPage.h; path = EAIntroView/EAIntroPage.h; sourceTree = "<group>"; };
+		478AB6B6C18AE4ADDA1787ECA60CC939 /* EARestrictedScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EARestrictedScrollView-umbrella.h"; sourceTree = "<group>"; };
+		4838B5BB8531F33133B8B83E8A165F35 /* BFPaperCheckbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BFPaperCheckbox.xcconfig; sourceTree = "<group>"; };
+		4853DB9DFEA5B8E80EAD8F45EC231C3F /* MCSwipeTableViewCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MCSwipeTableViewCell.modulemap; sourceTree = "<group>"; };
+		489C304FAF3F0581E99B376D10EFB4C6 /* BFPaperCheckbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BFPaperCheckbox-umbrella.h"; sourceTree = "<group>"; };
+		49C26EE44E8240E2DFDE60E767900636 /* libChameleonFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libChameleonFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		49CFB4D67137DA215AAD60FA58AB1705 /* ChameleonFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-umbrella.h"; sourceTree = "<group>"; };
+		5637C10DDDCA7C230D960BDC9AE86099 /* EAIntroView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EAIntroView.modulemap; sourceTree = "<group>"; };
+		56C56FEE9B7D6FFA8FE6B84F11025D26 /* MCSwipeTableViewCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MCSwipeTableViewCell-umbrella.h"; sourceTree = "<group>"; };
+		6117557E32111B02367BDED704EF2658 /* BFPaperCheckbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFPaperCheckbox.h; path = Classes/BFPaperCheckbox.h; sourceTree = "<group>"; };
+		6208C3DC7EEE23CFB158AC842ABDDDAB /* libEAIntroView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEAIntroView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		640BA20EE311BF3CA0B63A75F0DEF560 /* BFPaperCheckbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BFPaperCheckbox-dummy.m"; sourceTree = "<group>"; };
+		658B427909276B51BF8634E01D48A152 /* MCSwipeTableViewCell-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MCSwipeTableViewCell-Private.xcconfig"; sourceTree = "<group>"; };
+		68ACF8BDE54F4B2EE9547424B91825C6 /* UIColor+BFPaperColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIColor+BFPaperColors.xcconfig"; sourceTree = "<group>"; };
+		6DC741FBF81D0B7FD9BB3A0B3D54A54A /* MCSwipeTableViewCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MCSwipeTableViewCell-dummy.m"; sourceTree = "<group>"; };
+		71208A406739B7ECC2A52C19F0C71404 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		721BBFCE2B902CF002ABAB70CE057D4E /* MCSwipeTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCSwipeTableViewCell.h; path = MCSwipeTableViewCell/MCSwipeTableViewCell.h; sourceTree = "<group>"; };
+		7460371A12D6F6BBE29C03704A2E71EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		748310F2599518DD673965045388CC68 /* MCSwipeTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MCSwipeTableViewCell.m; path = MCSwipeTableViewCell/MCSwipeTableViewCell.m; sourceTree = "<group>"; };
+		74F3DA224905D5CA1F15FD578D1A5A01 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7681371EC3172D518E99D480F95BD580 /* BFPaperCheckbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BFPaperCheckbox.modulemap; sourceTree = "<group>"; };
+		80F1D87C4A2CBCA2081DD643E5408331 /* libUIColor+BFPaperColors.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libUIColor+BFPaperColors.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8117B6160A644B30AFD280CD28D7F8DB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		83F6FADB8F383E59B3A8AC9FE5708E3C /* UIColor+BFPaperColors-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+BFPaperColors-umbrella.h"; sourceTree = "<group>"; };
+		867D95170A322B384B9D9C9E4401591D /* ChameleonFramework-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ChameleonFramework-Private.xcconfig"; sourceTree = "<group>"; };
+		87D7E2A9E4A113F0782734A7819D90C5 /* EARestrictedScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EARestrictedScrollView.modulemap; sourceTree = "<group>"; };
+		8F4AF15CD4ECC48C5C907A1F84F4FF2A /* EAIntroPage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EAIntroPage.m; path = EAIntroView/EAIntroPage.m; sourceTree = "<group>"; };
+		93D645EBF0DE477646EA758D34A4B38D /* ChameleonMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonMacros.h; path = "Pod/Classes/Objective-C/ChameleonMacros.h"; sourceTree = "<group>"; };
+		95E692C40245FF5D9BF57EF0AF0449AB /* UIColor+CIELAB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+CIELAB.h"; path = "Pod/Classes/Objective-C/UIColor+CIELAB.h"; sourceTree = "<group>"; };
+		99C179EFEC523A653EC33CE8147410AF /* UIColor+BFPaperColors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+BFPaperColors.m"; path = "UIColor+BFPaperColors/UIColor+BFPaperColors.m"; sourceTree = "<group>"; };
+		9D434379A870D7ED4839FAD7DCAA3DAB /* EARestrictedScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EARestrictedScrollView.m; path = EARestrictedScrollView/EARestrictedScrollView.m; sourceTree = "<group>"; };
+		A1FBF3753702CC83BC4B996A6C51E414 /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Chameleon.m"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.m"; sourceTree = "<group>"; };
+		A2F2C3E60ABC72C50B011CD7134158CD /* EAIntroView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "EAIntroView-Private.xcconfig"; sourceTree = "<group>"; };
+		A43CD8D51F8FE21E9B0532E4970F8946 /* libBFPaperCheckbox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBFPaperCheckbox.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E4587E915599C5797C10F5DA956DF9 /* ChameleonFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-prefix.pch"; sourceTree = "<group>"; };
+		A5F822E59C48343778A7A0893BEB2933 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		ADF0E583CC2916E532A8F22B10D5927B /* libMCSwipeTableViewCell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMCSwipeTableViewCell.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B173646FFC36B8B88D5EBC08CE3809 /* ChameleonFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChameleonFramework.xcconfig; sourceTree = "<group>"; };
+		B18484B347E09763BC1F4D8800A2A158 /* UIColor+BFPaperColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BFPaperColors-dummy.m"; sourceTree = "<group>"; };
+		B1C360E03DD93EFEB074E535D346CBC4 /* EAIntroView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EAIntroView-dummy.m"; sourceTree = "<group>"; };
+		B3BB5840B4BDD2DDB6F5AB1247265D75 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		BBA920D18D1902C4B14145E803CBAFCE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BE7485F3ED54512C4779655AF33ED5B9 /* EAIntroView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EAIntroView.m; path = EAIntroView/EAIntroView.m; sourceTree = "<group>"; };
+		C2D15A374561772022A7D7C649A95F07 /* BFPaperCheckbox-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "BFPaperCheckbox-Private.xcconfig"; sourceTree = "<group>"; };
+		C58560C1D2D199AF8F5A367F48894A78 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		C88113A79685B4EFEE7BAD12896829F7 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CB2037C1D799A7DC939F986BEA54B36E /* EAIntroView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EAIntroView.h; path = EAIntroView/EAIntroView.h; sourceTree = "<group>"; };
+		D5B0AAAB13F598A06A7E0A8671FA864C /* Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon.h; path = "Pod/Classes/Objective-C/Chameleon.h"; sourceTree = "<group>"; };
+		D644B9A57F0FFDD53D71BB3649BD0885 /* EAIntroView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EAIntroView-prefix.pch"; sourceTree = "<group>"; };
+		D714FE3E38598E8DA7D174C40A308CD9 /* EAIntroView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EAIntroView.xcconfig; sourceTree = "<group>"; };
+		D7EF36778738A7A7FE75DFC16000DCD2 /* BmobSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BmobSDK.framework; sourceTree = "<group>"; };
+		D8AAD57A0D2E034EB540A24A5FEF7DA2 /* BFPaperCheckbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BFPaperCheckbox-prefix.pch"; sourceTree = "<group>"; };
+		DA1DA3EF5ECACBE9F8EA0FADA65D8585 /* UIColor+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Chameleon.h"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.h"; sourceTree = "<group>"; };
+		DDBFC7B6CBA20856AAD25EB80B957A74 /* EARestrictedScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EARestrictedScrollView.xcconfig; sourceTree = "<group>"; };
+		DE0FC42C3175772FD6EB6B8414FA47CF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		DFD20835DA5C26A2F2D9BB34BCD331B8 /* EARestrictedScrollView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "EARestrictedScrollView-Private.xcconfig"; sourceTree = "<group>"; };
+		E971E3EB0CB9C29F866E838ABBB06356 /* ChameleonStatusBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ChameleonStatusBar.m; path = "Pod/Classes/Objective-C/ChameleonStatusBar.m"; sourceTree = "<group>"; };
+		EE7F9CB73F1DED554D2E2EB9EB8BCD50 /* MCSwipeTableViewCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MCSwipeTableViewCell.xcconfig; sourceTree = "<group>"; };
+		F661C276E104DD7219DBDAA8CEB726A4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		F67C8D1AB03753EE331539CAB1D4850E /* EARestrictedScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EARestrictedScrollView-dummy.m"; sourceTree = "<group>"; };
+		F965085A5306DDE0B6D40FD2FEA6ACFB /* EARestrictedScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EARestrictedScrollView-prefix.pch"; sourceTree = "<group>"; };
+		FB1377D20B9E9F0C907C7A963D4D929E /* UIColor+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Chameleon.m"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.m"; sourceTree = "<group>"; };
+		FCC1D4F8C7061948FD4B4FD62943D55D /* UIColor+BFPaperColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+BFPaperColors.h"; path = "UIColor+BFPaperColors/UIColor+BFPaperColors.h"; sourceTree = "<group>"; };
+		FCD65F506772EAA4C3295E03B6F8D2C2 /* ChameleonFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ChameleonFramework.modulemap; sourceTree = "<group>"; };
+		FD329956B1745E8E074C7AE2EF0FB856 /* BFPaperCheckbox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFPaperCheckbox.m; path = Classes/BFPaperCheckbox.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A3A037356B645FFDA8EDD745C07CF79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78FAAF0A9D79D0952DCD4D313B87DF1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		443EB8C5FABEBF92C26C739FDAB5788C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA55DAB814D8756392A897CE7B1E253 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		481471F1C01A0A9F926A5821197E03D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4D0092106B04DAC181A806B7A7ACA3 /* CoreGraphics.framework in Frameworks */,
+				4C3A9D334B95107101A1256458358428 /* Foundation.framework in Frameworks */,
+				B27758ECF96BA1A6CDCE6143B78D0EA7 /* QuartzCore.framework in Frameworks */,
+				A73B5AD14B6E57DFF7D40F97B74A495A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7748CCFDAA79B6F732BA12FCE3A70791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52D91835A9EF1CE10FF3F2B7DE41232 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE975BC487F909DE05894ACAD5DE86B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C59B631C3CF456E1C02C9CE4754FCFE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9AB9131AD4432DD2B400F95D2F963D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E335220F5E927569535CFBD889A18E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3EF116D6D5E257DA490222A4EFA134 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA233E0F828594AFA6C89D8D3ECF5A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01427F80B2D5ECFD2289D10DDA4C4C90 /* BFPaperCheckbox */ = {
+			isa = PBXGroup;
+			children = (
+				6117557E32111B02367BDED704EF2658 /* BFPaperCheckbox.h */,
+				FD329956B1745E8E074C7AE2EF0FB856 /* BFPaperCheckbox.m */,
+				3BC8A74D9B82B244AC6F33D5DF3A63C4 /* Support Files */,
+			);
+			path = BFPaperCheckbox;
+			sourceTree = "<group>";
+		};
+		0168D46B15DDDA28457333BF2C41D4FD /* BmobSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E4D2ED12B9B45F1A807317189C33C173 /* Frameworks */,
+			);
+			path = BmobSDK;
+			sourceTree = "<group>";
+		};
+		10C9C0481110DFEAE50BDA99A6B2AD86 /* MCSwipeTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				721BBFCE2B902CF002ABAB70CE057D4E /* MCSwipeTableViewCell.h */,
+				748310F2599518DD673965045388CC68 /* MCSwipeTableViewCell.m */,
+				785AAD008A87614E67D17205B60D29A7 /* Support Files */,
+			);
+			path = MCSwipeTableViewCell;
+			sourceTree = "<group>";
+		};
+		16B81B7B61B8D0150EB97B322DA6AE7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01427F80B2D5ECFD2289D10DDA4C4C90 /* BFPaperCheckbox */,
+				0168D46B15DDDA28457333BF2C41D4FD /* BmobSDK */,
+				3B6A24C08115B594CC883156606FC6BD /* ChameleonFramework */,
+				9F861CCFBCD74863E73D61564795BE8A /* EAIntroView */,
+				85FC6AC637CE0E5B8EC36BF55B2B356D /* EARestrictedScrollView */,
+				10C9C0481110DFEAE50BDA99A6B2AD86 /* MCSwipeTableViewCell */,
+				F7E6415A33B0B5D376A1F0CFD2547EBB /* UIColor+BFPaperColors */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2807E5D3D5C2B00DA1D5202DA0BC254D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				02E13CA457525E1B0D38465CC29932C2 /* UIColor+BFPaperColors.modulemap */,
+				68ACF8BDE54F4B2EE9547424B91825C6 /* UIColor+BFPaperColors.xcconfig */,
+				2B7DEBA1F1A53215439AE9FBB3298F53 /* UIColor+BFPaperColors-Private.xcconfig */,
+				B18484B347E09763BC1F4D8800A2A158 /* UIColor+BFPaperColors-dummy.m */,
+				24D0E268CCE675AD8630D948A23A61CB /* UIColor+BFPaperColors-prefix.pch */,
+				83F6FADB8F383E59B3A8AC9FE5708E3C /* UIColor+BFPaperColors-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIColor+BFPaperColors";
+			sourceTree = "<group>";
+		};
+		3B6A24C08115B594CC883156606FC6BD /* ChameleonFramework */ = {
+			isa = PBXGroup;
+			children = (
+				C33571B9041B45921C9CB053FA01AB69 /* Default */,
+				FDE6C28F4566E96575FD6656408BEABA /* Support Files */,
+			);
+			path = ChameleonFramework;
+			sourceTree = "<group>";
+		};
+		3BC8A74D9B82B244AC6F33D5DF3A63C4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7681371EC3172D518E99D480F95BD580 /* BFPaperCheckbox.modulemap */,
+				4838B5BB8531F33133B8B83E8A165F35 /* BFPaperCheckbox.xcconfig */,
+				C2D15A374561772022A7D7C649A95F07 /* BFPaperCheckbox-Private.xcconfig */,
+				640BA20EE311BF3CA0B63A75F0DEF560 /* BFPaperCheckbox-dummy.m */,
+				D8AAD57A0D2E034EB540A24A5FEF7DA2 /* BFPaperCheckbox-prefix.pch */,
+				489C304FAF3F0581E99B376D10EFB4C6 /* BFPaperCheckbox-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BFPaperCheckbox";
+			sourceTree = "<group>";
+		};
+		44615C8185D00E112F1114CD7C2A7072 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5637C10DDDCA7C230D960BDC9AE86099 /* EAIntroView.modulemap */,
+				D714FE3E38598E8DA7D174C40A308CD9 /* EAIntroView.xcconfig */,
+				A2F2C3E60ABC72C50B011CD7134158CD /* EAIntroView-Private.xcconfig */,
+				B1C360E03DD93EFEB074E535D346CBC4 /* EAIntroView-dummy.m */,
+				D644B9A57F0FFDD53D71BB3649BD0885 /* EAIntroView-prefix.pch */,
+				255FD14691D4CCBA9B7A3A7C5497007C /* EAIntroView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EAIntroView";
+			sourceTree = "<group>";
+		};
+		5E1F3384B1B39575144FEBFCF3210CCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EE243187C8394BE04F7F909603BC6CE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EE243187C8394BE04F7F909603BC6CE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				71208A406739B7ECC2A52C19F0C71404 /* CoreGraphics.framework */,
+				BBA920D18D1902C4B14145E803CBAFCE /* Foundation.framework */,
+				8117B6160A644B30AFD280CD28D7F8DB /* QuartzCore.framework */,
+				7460371A12D6F6BBE29C03704A2E71EC /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6FD3E34139C991EBA686BD4A55CCB45D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19F830CABFD7C5AB3A939E4B18915F47 /* Pods-acknowledgements.markdown */,
+				A5F822E59C48343778A7A0893BEB2933 /* Pods-acknowledgements.plist */,
+				C58560C1D2D199AF8F5A367F48894A78 /* Pods-dummy.m */,
+				B3BB5840B4BDD2DDB6F5AB1247265D75 /* Pods-resources.sh */,
+				DE0FC42C3175772FD6EB6B8414FA47CF /* Pods.debug.xcconfig */,
+				F661C276E104DD7219DBDAA8CEB726A4 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		785AAD008A87614E67D17205B60D29A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4853DB9DFEA5B8E80EAD8F45EC231C3F /* MCSwipeTableViewCell.modulemap */,
+				EE7F9CB73F1DED554D2E2EB9EB8BCD50 /* MCSwipeTableViewCell.xcconfig */,
+				658B427909276B51BF8634E01D48A152 /* MCSwipeTableViewCell-Private.xcconfig */,
+				6DC741FBF81D0B7FD9BB3A0B3D54A54A /* MCSwipeTableViewCell-dummy.m */,
+				1C43F392624FF80FA6F31107105381CB /* MCSwipeTableViewCell-prefix.pch */,
+				56C56FEE9B7D6FFA8FE6B84F11025D26 /* MCSwipeTableViewCell-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MCSwipeTableViewCell";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				C88113A79685B4EFEE7BAD12896829F7 /* Podfile */,
+				5E1F3384B1B39575144FEBFCF3210CCC /* Frameworks */,
+				16B81B7B61B8D0150EB97B322DA6AE7A /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				848A6CE8DA3504A266A17F635DC3683A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		848A6CE8DA3504A266A17F635DC3683A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FD3E34139C991EBA686BD4A55CCB45D /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		85FC6AC637CE0E5B8EC36BF55B2B356D /* EARestrictedScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				19857137563310E6EC6BC88A0F0DDEA6 /* EARestrictedScrollView.h */,
+				9D434379A870D7ED4839FAD7DCAA3DAB /* EARestrictedScrollView.m */,
+				EE1AD44696E9FED811C28016ED7ED8DF /* Support Files */,
+			);
+			path = EARestrictedScrollView;
+			sourceTree = "<group>";
+		};
+		9F861CCFBCD74863E73D61564795BE8A /* EAIntroView */ = {
+			isa = PBXGroup;
+			children = (
+				45117CA3495E20D8B199C7ECE072807F /* EAIntroPage.h */,
+				8F4AF15CD4ECC48C5C907A1F84F4FF2A /* EAIntroPage.m */,
+				CB2037C1D799A7DC939F986BEA54B36E /* EAIntroView.h */,
+				BE7485F3ED54512C4779655AF33ED5B9 /* EAIntroView.m */,
+				44615C8185D00E112F1114CD7C2A7072 /* Support Files */,
+			);
+			path = EAIntroView;
+			sourceTree = "<group>";
+		};
+		C33571B9041B45921C9CB053FA01AB69 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				D5B0AAAB13F598A06A7E0A8671FA864C /* Chameleon.h */,
+				93D645EBF0DE477646EA758D34A4B38D /* ChameleonMacros.h */,
+				263D2D74EA66FF4D9401B233A0C8EF3E /* ChameleonStatusBar.h */,
+				E971E3EB0CB9C29F866E838ABBB06356 /* ChameleonStatusBar.m */,
+				179DBCFC34A7CB7B7D47B97840066CF1 /* NSArray+Chameleon.h */,
+				0773F30888C280F1891EB3DE5FE9DAA0 /* NSArray+Chameleon.m */,
+				95E692C40245FF5D9BF57EF0AF0449AB /* UIColor+CIELAB.h */,
+				3D6F5B57F8F9A81DEC982EA3D6E1797D /* UIColor+CIELAB.m */,
+				DA1DA3EF5ECACBE9F8EA0FADA65D8585 /* UIColor+Chameleon.h */,
+				FB1377D20B9E9F0C907C7A963D4D929E /* UIColor+Chameleon.m */,
+				175AFDC029CB100859C112E132E4462D /* UIViewController+Chameleon.h */,
+				A1FBF3753702CC83BC4B996A6C51E414 /* UIViewController+Chameleon.m */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A43CD8D51F8FE21E9B0532E4970F8946 /* libBFPaperCheckbox.a */,
+				49C26EE44E8240E2DFDE60E767900636 /* libChameleonFramework.a */,
+				6208C3DC7EEE23CFB158AC842ABDDDAB /* libEAIntroView.a */,
+				01A99881CB8B41ED7ABF63884E59C0AE /* libEARestrictedScrollView.a */,
+				ADF0E583CC2916E532A8F22B10D5927B /* libMCSwipeTableViewCell.a */,
+				74F3DA224905D5CA1F15FD578D1A5A01 /* libPods.a */,
+				80F1D87C4A2CBCA2081DD643E5408331 /* libUIColor+BFPaperColors.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4D2ED12B9B45F1A807317189C33C173 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7EF36778738A7A7FE75DFC16000DCD2 /* BmobSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE1AD44696E9FED811C28016ED7ED8DF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87D7E2A9E4A113F0782734A7819D90C5 /* EARestrictedScrollView.modulemap */,
+				DDBFC7B6CBA20856AAD25EB80B957A74 /* EARestrictedScrollView.xcconfig */,
+				DFD20835DA5C26A2F2D9BB34BCD331B8 /* EARestrictedScrollView-Private.xcconfig */,
+				F67C8D1AB03753EE331539CAB1D4850E /* EARestrictedScrollView-dummy.m */,
+				F965085A5306DDE0B6D40FD2FEA6ACFB /* EARestrictedScrollView-prefix.pch */,
+				478AB6B6C18AE4ADDA1787ECA60CC939 /* EARestrictedScrollView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EARestrictedScrollView";
+			sourceTree = "<group>";
+		};
+		F7E6415A33B0B5D376A1F0CFD2547EBB /* UIColor+BFPaperColors */ = {
+			isa = PBXGroup;
+			children = (
+				FCC1D4F8C7061948FD4B4FD62943D55D /* UIColor+BFPaperColors.h */,
+				99C179EFEC523A653EC33CE8147410AF /* UIColor+BFPaperColors.m */,
+				2807E5D3D5C2B00DA1D5202DA0BC254D /* Support Files */,
+			);
+			path = "UIColor+BFPaperColors";
+			sourceTree = "<group>";
+		};
+		FDE6C28F4566E96575FD6656408BEABA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCD65F506772EAA4C3295E03B6F8D2C2 /* ChameleonFramework.modulemap */,
+				B0B173646FFC36B8B88D5EBC08CE3809 /* ChameleonFramework.xcconfig */,
+				867D95170A322B384B9D9C9E4401591D /* ChameleonFramework-Private.xcconfig */,
+				2EC265E092AFF03D2249BA5471774243 /* ChameleonFramework-dummy.m */,
+				A4E4587E915599C5797C10F5DA956DF9 /* ChameleonFramework-prefix.pch */,
+				49CFB4D67137DA215AAD60FA58AB1705 /* ChameleonFramework-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ChameleonFramework";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		47B606658DDA68268F3A996AD48AB2C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEAD7D0BE100F84E390DED74CA9FE4BF /* BFPaperCheckbox.h in Headers */,
+				1B50B3A8F5CA15811E2B6105457209C8 /* BFPaperCheckbox-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EAE62BF17EDC1294520C4FF75F172D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B4E593F2EACF9C61F50C26CC105B98B /* Chameleon.h in Headers */,
+				9260C7D3F91493D43C854B0C6A39AC77 /* ChameleonFramework-umbrella.h in Headers */,
+				6B64B4F1EEC8FA163E59CB200B70F195 /* ChameleonMacros.h in Headers */,
+				60CB3B2F26E7C96399C4E0296021C08F /* ChameleonStatusBar.h in Headers */,
+				326CE32065030B88ECCE30939F41A6D4 /* NSArray+Chameleon.h in Headers */,
+				534D3FE8A4F1239F7272B60AB9608091 /* UIColor+CIELAB.h in Headers */,
+				17E11285DCA73977C984D7599208C05E /* UIColor+Chameleon.h in Headers */,
+				5206ABE852712A9B32D29FF50C7D89C5 /* UIViewController+Chameleon.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		858626C00CE4E22E701B6A02AFE8F484 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033C3C4CA94192D846AFB14EF007D4A8 /* EARestrictedScrollView.h in Headers */,
+				2093340D4BBFEFD828932BC22920235C /* EARestrictedScrollView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA28F4ADBF7B7F50F8E87F069D1F6AB0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6604096925A857EA71F3E0BD0B85BE6 /* EAIntroPage.h in Headers */,
+				0E1038F00268CA16608C75BB6B1E3F97 /* EAIntroView-umbrella.h in Headers */,
+				D90ABE0B406AEDA610FD19AA9358180F /* EAIntroView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6F72817205D5E38E8FD1DCD92CA8E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335B75A3401B63E1921DB7E7E5EA0737 /* MCSwipeTableViewCell.h in Headers */,
+				0841B0ABCACDBE4694EE34251D14B845 /* MCSwipeTableViewCell-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA50733E0539FBF583674668D019FC0D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3E3A44211D3E142CA1B1ED0969F96BF /* UIColor+BFPaperColors.h in Headers */,
+				C6D3633FD72AFEEF6ACF4F8D910ECCDE /* UIColor+BFPaperColors-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3686655EF666456A4008F71954C428CC /* EAIntroView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83FFA46A8BB999DCC22CBAC2E41C7960 /* Build configuration list for PBXNativeTarget "EAIntroView" */;
+			buildPhases = (
+				8E09AE87A4CA3793271BBC89C6092BB0 /* Sources */,
+				BDE975BC487F909DE05894ACAD5DE86B /* Frameworks */,
+				EA28F4ADBF7B7F50F8E87F069D1F6AB0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB09F82DC14A58A1DE68B0143AEC6A2F /* PBXTargetDependency */,
+			);
+			name = EAIntroView;
+			productName = EAIntroView;
+			productReference = 6208C3DC7EEE23CFB158AC842ABDDDAB /* libEAIntroView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		87043E5CBFD40FFE0A063AC3D2615D37 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7001115493B474BCF65226C1FFFAC72 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				89D76F025235BB71806E19E9C4636907 /* Sources */,
+				ED3EF116D6D5E257DA490222A4EFA134 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5A2F4915B6F7B44FD698FC4CCDFFECE /* PBXTargetDependency */,
+				9E8A4D44B051261C006DECE20926D52B /* PBXTargetDependency */,
+				5AA3EE6AC611BE05CC5DE00C030DDB28 /* PBXTargetDependency */,
+				21481B58FCB7E65E221890751D2EF050 /* PBXTargetDependency */,
+				395108BD621AEA875E0446FADC60A89E /* PBXTargetDependency */,
+				30098173EB1F2BBC037C9A96F73C3B1D /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 74F3DA224905D5CA1F15FD578D1A5A01 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		92D0F5E93F5146AC0DDD8E9B4A1CF7AB /* ChameleonFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D5099C99BE274A8358E707BB7C6DB8C /* Build configuration list for PBXNativeTarget "ChameleonFramework" */;
+			buildPhases = (
+				E49530728803D6EAE7C2C9A68D9AB57D /* Sources */,
+				481471F1C01A0A9F926A5821197E03D8 /* Frameworks */,
+				50EAE62BF17EDC1294520C4FF75F172D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChameleonFramework;
+			productName = ChameleonFramework;
+			productReference = 49C26EE44E8240E2DFDE60E767900636 /* libChameleonFramework.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B3D59AEEA54ECAE4BCC3D05904F91FC2 /* EARestrictedScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C4B048864C7F6EC053F3A544D2D5FA0 /* Build configuration list for PBXNativeTarget "EARestrictedScrollView" */;
+			buildPhases = (
+				3EEFC4F37572A330A0A8ABC412540A63 /* Sources */,
+				2A3A037356B645FFDA8EDD745C07CF79 /* Frameworks */,
+				858626C00CE4E22E701B6A02AFE8F484 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EARestrictedScrollView;
+			productName = EARestrictedScrollView;
+			productReference = 01A99881CB8B41ED7ABF63884E59C0AE /* libEARestrictedScrollView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BA8B28166D77FFED1E3BAD8D75E7F2BE /* BFPaperCheckbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F4CAB17BD61CD103D266E923B786359 /* Build configuration list for PBXNativeTarget "BFPaperCheckbox" */;
+			buildPhases = (
+				1372C5200D47072C90AC5FC4D57E38D5 /* Sources */,
+				443EB8C5FABEBF92C26C739FDAB5788C /* Frameworks */,
+				47B606658DDA68268F3A996AD48AB2C5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E68459B808D8790228CCEF707BF38DD3 /* PBXTargetDependency */,
+			);
+			name = BFPaperCheckbox;
+			productName = BFPaperCheckbox;
+			productReference = A43CD8D51F8FE21E9B0532E4970F8946 /* libBFPaperCheckbox.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D410E1485915809C5ACADDE14DDD98B8 /* UIColor+BFPaperColors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0441C0F8835657DB7EA94609C5EC08F6 /* Build configuration list for PBXNativeTarget "UIColor+BFPaperColors" */;
+			buildPhases = (
+				CB91FEB06DE9FC07ACE451983DB7970D /* Sources */,
+				7748CCFDAA79B6F732BA12FCE3A70791 /* Frameworks */,
+				FA50733E0539FBF583674668D019FC0D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIColor+BFPaperColors";
+			productName = "UIColor+BFPaperColors";
+			productReference = 80F1D87C4A2CBCA2081DD643E5408331 /* libUIColor+BFPaperColors.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FE02FA362D12922793FFD492282D5A7A /* MCSwipeTableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BAB6C5500702D07F483DC331032F02B /* Build configuration list for PBXNativeTarget "MCSwipeTableViewCell" */;
+			buildPhases = (
+				964F9A23B5F29F57224828F43890AB93 /* Sources */,
+				E9AB9131AD4432DD2B400F95D2F963D4 /* Frameworks */,
+				EB6F72817205D5E38E8FD1DCD92CA8E5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MCSwipeTableViewCell;
+			productName = MCSwipeTableViewCell;
+			productReference = ADF0E583CC2916E532A8F22B10D5927B /* libMCSwipeTableViewCell.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA8B28166D77FFED1E3BAD8D75E7F2BE /* BFPaperCheckbox */,
+				92D0F5E93F5146AC0DDD8E9B4A1CF7AB /* ChameleonFramework */,
+				3686655EF666456A4008F71954C428CC /* EAIntroView */,
+				B3D59AEEA54ECAE4BCC3D05904F91FC2 /* EARestrictedScrollView */,
+				FE02FA362D12922793FFD492282D5A7A /* MCSwipeTableViewCell */,
+				87043E5CBFD40FFE0A063AC3D2615D37 /* Pods */,
+				D410E1485915809C5ACADDE14DDD98B8 /* UIColor+BFPaperColors */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1372C5200D47072C90AC5FC4D57E38D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0ECE454666B44C14D6AB0134E4802A /* BFPaperCheckbox-dummy.m in Sources */,
+				D1E0E36327A8853563A74DE85ED51AAB /* BFPaperCheckbox.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EEFC4F37572A330A0A8ABC412540A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B607165C685D63FEC0611D111432D6C /* EARestrictedScrollView-dummy.m in Sources */,
+				EE255833383925BA121BE7B3279DC1F3 /* EARestrictedScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89D76F025235BB71806E19E9C4636907 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE1DDA02CA5275162FBAE07597C2AEE /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E09AE87A4CA3793271BBC89C6092BB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44D368FC7C908F61B329B963413807F /* EAIntroPage.m in Sources */,
+				51C8F7D212BB2505AD7E311726512C6B /* EAIntroView-dummy.m in Sources */,
+				94FE5E3836E2532C94D3C5497177143D /* EAIntroView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964F9A23B5F29F57224828F43890AB93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80276296E95D42E4B41ED785E0D3DA6 /* MCSwipeTableViewCell-dummy.m in Sources */,
+				13EC195C0069E6A1A0BF758075373B42 /* MCSwipeTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB91FEB06DE9FC07ACE451983DB7970D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0170D89691AF19B5FA7313C46A5BD6CD /* UIColor+BFPaperColors-dummy.m in Sources */,
+				82FFF72094C9FA9A0A41048325C33C5F /* UIColor+BFPaperColors.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E49530728803D6EAE7C2C9A68D9AB57D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1278C9B5E2B5247327BCBD102B2C8EF /* ChameleonFramework-dummy.m in Sources */,
+				594FFAFE050D3348F4185FECFA61572E /* ChameleonStatusBar.m in Sources */,
+				DA34A8AB4A569AACC8CCA8CCFE53D851 /* NSArray+Chameleon.m in Sources */,
+				8EDB618BB8ED7828D015DAF65B231006 /* UIColor+CIELAB.m in Sources */,
+				DF6775491BC7DAE308555E531F8FB262 /* UIColor+Chameleon.m in Sources */,
+				50433E7546F079635D9B7CEB48D718CA /* UIViewController+Chameleon.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21481B58FCB7E65E221890751D2EF050 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EARestrictedScrollView;
+			target = B3D59AEEA54ECAE4BCC3D05904F91FC2 /* EARestrictedScrollView */;
+			targetProxy = 977A4D618733EE4A19BA7E6E667258CB /* PBXContainerItemProxy */;
+		};
+		30098173EB1F2BBC037C9A96F73C3B1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIColor+BFPaperColors";
+			target = D410E1485915809C5ACADDE14DDD98B8 /* UIColor+BFPaperColors */;
+			targetProxy = 06C80394F6B60313224A6CB398ED32FD /* PBXContainerItemProxy */;
+		};
+		395108BD621AEA875E0446FADC60A89E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MCSwipeTableViewCell;
+			target = FE02FA362D12922793FFD492282D5A7A /* MCSwipeTableViewCell */;
+			targetProxy = F923BF59A0F564C148119DB75F3DE0D0 /* PBXContainerItemProxy */;
+		};
+		5AA3EE6AC611BE05CC5DE00C030DDB28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EAIntroView;
+			target = 3686655EF666456A4008F71954C428CC /* EAIntroView */;
+			targetProxy = E529FACE60FB2FB7E1DB028C967EA272 /* PBXContainerItemProxy */;
+		};
+		9E8A4D44B051261C006DECE20926D52B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChameleonFramework;
+			target = 92D0F5E93F5146AC0DDD8E9B4A1CF7AB /* ChameleonFramework */;
+			targetProxy = 8BB5EA039C6FF11C6ADEA1428E532B3E /* PBXContainerItemProxy */;
+		};
+		E68459B808D8790228CCEF707BF38DD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIColor+BFPaperColors";
+			target = D410E1485915809C5ACADDE14DDD98B8 /* UIColor+BFPaperColors */;
+			targetProxy = CBC7BDC5D962C622FB0F5B47EEFD3457 /* PBXContainerItemProxy */;
+		};
+		F5A2F4915B6F7B44FD698FC4CCDFFECE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BFPaperCheckbox;
+			target = BA8B28166D77FFED1E3BAD8D75E7F2BE /* BFPaperCheckbox */;
+			targetProxy = 34076BF6583E426E051F6F4D6FC731DE /* PBXContainerItemProxy */;
+		};
+		FB09F82DC14A58A1DE68B0143AEC6A2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EARestrictedScrollView;
+			target = B3D59AEEA54ECAE4BCC3D05904F91FC2 /* EARestrictedScrollView */;
+			targetProxy = 9C5DAD66C71CB6AF3C38E45F887F3E84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D491647D9FBA81473125ECE87766FEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		265A2EA46E625FC9F968BAC2C53B4482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B7DEBA1F1A53215439AE9FBB3298F53 /* UIColor+BFPaperColors-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIColor+BFPaperColors/UIColor+BFPaperColors-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MODULEMAP_FILE = "Target Support Files/UIColor+BFPaperColors/UIColor+BFPaperColors.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3328EE9A92B4BA0DD143ED94B3A9487D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 867D95170A322B384B9D9C9E4401591D /* ChameleonFramework-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ChameleonFramework/ChameleonFramework-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MODULEMAP_FILE = "Target Support Files/ChameleonFramework/ChameleonFramework.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3A9CCA5C2E84C9B0AD090E396CD87AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 658B427909276B51BF8634E01D48A152 /* MCSwipeTableViewCell-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MCSwipeTableViewCell/MCSwipeTableViewCell-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MODULEMAP_FILE = "Target Support Files/MCSwipeTableViewCell/MCSwipeTableViewCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3D0A535BAC826A03FA3AC24481AA4E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4441A65FED9CAE4D7139E96220294620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F661C276E104DD7219DBDAA8CEB726A4 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		446E081857F987AD8700B38B06B626B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2F2C3E60ABC72C50B011CD7134158CD /* EAIntroView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EAIntroView/EAIntroView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MODULEMAP_FILE = "Target Support Files/EAIntroView/EAIntroView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		82322ADA0349BA222D6965D929533A05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2F2C3E60ABC72C50B011CD7134158CD /* EAIntroView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EAIntroView/EAIntroView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MODULEMAP_FILE = "Target Support Files/EAIntroView/EAIntroView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8590D79252280296DCBD760EAB7F42F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE0FC42C3175772FD6EB6B8414FA47CF /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		953FF6E63D6EBD65CBD9943F442548EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2D15A374561772022A7D7C649A95F07 /* BFPaperCheckbox-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BFPaperCheckbox/BFPaperCheckbox-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MODULEMAP_FILE = "Target Support Files/BFPaperCheckbox/BFPaperCheckbox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		98E9FF379578545E0EBFD2CF13F4BA6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFD20835DA5C26A2F2D9BB34BCD331B8 /* EARestrictedScrollView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EARestrictedScrollView/EARestrictedScrollView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MODULEMAP_FILE = "Target Support Files/EARestrictedScrollView/EARestrictedScrollView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A72306FD61CA4A2352364C345415A695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 867D95170A322B384B9D9C9E4401591D /* ChameleonFramework-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ChameleonFramework/ChameleonFramework-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MODULEMAP_FILE = "Target Support Files/ChameleonFramework/ChameleonFramework.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C4B05D8C0B2B8EBB1ED56B0C28AEF795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2D15A374561772022A7D7C649A95F07 /* BFPaperCheckbox-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BFPaperCheckbox/BFPaperCheckbox-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MODULEMAP_FILE = "Target Support Files/BFPaperCheckbox/BFPaperCheckbox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D3CEABB8193388F62DA6E1C2CF363AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B7DEBA1F1A53215439AE9FBB3298F53 /* UIColor+BFPaperColors-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIColor+BFPaperColors/UIColor+BFPaperColors-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MODULEMAP_FILE = "Target Support Files/UIColor+BFPaperColors/UIColor+BFPaperColors.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DE958070003C267697191FB383AA4C32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFD20835DA5C26A2F2D9BB34BCD331B8 /* EARestrictedScrollView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EARestrictedScrollView/EARestrictedScrollView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MODULEMAP_FILE = "Target Support Files/EARestrictedScrollView/EARestrictedScrollView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EC83896C4598A2D96015FB81E611C751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 658B427909276B51BF8634E01D48A152 /* MCSwipeTableViewCell-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MCSwipeTableViewCell/MCSwipeTableViewCell-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MODULEMAP_FILE = "Target Support Files/MCSwipeTableViewCell/MCSwipeTableViewCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0441C0F8835657DB7EA94609C5EC08F6 /* Build configuration list for PBXNativeTarget "UIColor+BFPaperColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3CEABB8193388F62DA6E1C2CF363AE6 /* Debug */,
+				265A2EA46E625FC9F968BAC2C53B4482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C4B048864C7F6EC053F3A544D2D5FA0 /* Build configuration list for PBXNativeTarget "EARestrictedScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE958070003C267697191FB383AA4C32 /* Debug */,
+				98E9FF379578545E0EBFD2CF13F4BA6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D491647D9FBA81473125ECE87766FEE /* Debug */,
+				3D0A535BAC826A03FA3AC24481AA4E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BAB6C5500702D07F483DC331032F02B /* Build configuration list for PBXNativeTarget "MCSwipeTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A9CCA5C2E84C9B0AD090E396CD87AAA /* Debug */,
+				EC83896C4598A2D96015FB81E611C751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D5099C99BE274A8358E707BB7C6DB8C /* Build configuration list for PBXNativeTarget "ChameleonFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A72306FD61CA4A2352364C345415A695 /* Debug */,
+				3328EE9A92B4BA0DD143ED94B3A9487D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F4CAB17BD61CD103D266E923B786359 /* Build configuration list for PBXNativeTarget "BFPaperCheckbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953FF6E63D6EBD65CBD9943F442548EE /* Debug */,
+				C4B05D8C0B2B8EBB1ED56B0C28AEF795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83FFA46A8BB999DCC22CBAC2E41C7960 /* Build configuration list for PBXNativeTarget "EAIntroView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82322ADA0349BA222D6965D929533A05 /* Debug */,
+				446E081857F987AD8700B38B06B626B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7001115493B474BCF65226C1FFFAC72 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8590D79252280296DCBD760EAB7F42F8 /* Debug */,
+				4441A65FED9CAE4D7139E96220294620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

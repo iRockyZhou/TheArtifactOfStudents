@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NeroItemDetailVC.h"
+#import <BFPaperCheckbox.h>
 
-@interface ViewController : UIViewController
 
+@class NeroArtifactList;
 
+//@interface ViewController : UITableViewController <NeroItemDetailVCDelegate,BFPaperCheckboxDelegate>
+@interface ViewController : UITableViewController <NeroItemDetailVCDelegate, BFPaperCheckboxDelegate>
+
+@property (nonatomic, strong)NeroArtifactList *artifactList;
 @end
 
