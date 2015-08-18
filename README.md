@@ -1,4 +1,4 @@
-# TheArtifactOfStudents
+# TheArtifactOfStudents [View on AppStore](https://itunes.apple.com/hk/app/xue-sheng-shen-qi/id1029779698?mt=8)
 ###中文名：	学生神器    
 ###版本：	V1.0.1（由于Apple的限制，在上线时改成了1.0）   
 ###功能介绍：
@@ -36,5 +36,6 @@ ___
   
 ###代码说明
  详细开发文档见代码内注释
+
   
 
