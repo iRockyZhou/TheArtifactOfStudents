@@ -22,17 +22,13 @@ ___
 ##开发文档
 
 ###PODS:
-  - BFPaperCheckbox (1.2.7):   
-    - UIColor+BFPaperColors   
-  - BmobSDK (1.6.1)   
-  - ChameleonFramework (1.2.1):   
-    - ChameleonFramework/Default (= 1.2.1)   
-  - ChameleonFramework/Default (1.2.1)   
-  - EAIntroView (2.7.4):   
-    - EARestrictedScrollView (~> 0.2.0)   
-  - EARestrictedScrollView (0.2.0)   
-  - MCSwipeTableViewCell (2.1.4)   
-  - UIColor+BFPaperColors (1.7.1)  
+pod 'EARestrictedScrollView'    
+pod 'BmobSDK'    
+pod 'ChameleonFramework'   
+pod 'MCSwipeTableViewCell'    
+pod 'BFPaperCheckbox'    
+pod 'EAIntroView'    
+
   
 ###代码说明
  详细开发文档见代码内注释
