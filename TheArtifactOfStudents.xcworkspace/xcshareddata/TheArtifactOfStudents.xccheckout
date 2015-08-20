@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>ED944E0B-96ED-4087-85E8-B6B7D2033BA2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TheArtifactOfStudents</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>975E64D992991E4598FE83CF83D245D2DEF2BB08</key>
+		<string>https://github.com/JunqiangTan/TheArtifactOfStudents.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TheArtifactOfStudents.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>975E64D992991E4598FE83CF83D245D2DEF2BB08</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/JunqiangTan/TheArtifactOfStudents.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>975E64D992991E4598FE83CF83D245D2DEF2BB08</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>975E64D992991E4598FE83CF83D245D2DEF2BB08</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TheArtifactOfStudents_%E6%9C%80%E7%BB%88%E7%89%88%E5%B7%B2%E7%AD%BE%E5%90%8D%E5%B9%B6%E4%B8%8A%E4%BC%A0</string>
+		</dict>
+	</array>
+</dict>
+</plist>
