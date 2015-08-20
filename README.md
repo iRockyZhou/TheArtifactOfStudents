@@ -33,5 +33,6 @@ pod 'EAIntroView'
 ###代码说明
  详细开发文档见代码内注释
 
-  
+#######issue
+不知什么原因 ./TheArtifactOfStudents/UIColor+Nero文件夹下的UIColor+Nero.h和UIColor+Nero.m文件传不上来，请到UIColor+Nero代码仓库下载文件，导入工程，另求解决方法。
 
